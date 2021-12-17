@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F1F1"
+    tools:context=".showImage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이미지"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/Iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F8F3F3"
+            android:src="@android:drawable/gallery_thumb" />
+    </LinearLayout>
+</FrameLayout>
